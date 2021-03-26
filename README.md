@@ -14,9 +14,8 @@ can be used in the program. Then a random key is generated using those character
 Then you enter some text to encrypt. Every character has its own index value. Its value is determined by the 
 order of the characters in the "scramble.txt" file. The first character's index value is 0, the last is the 
 number of characters - 1, (or 66, for now).  
-
 The main decode method loops over the characters of the text and key, and adds their index values together. 
-If that value is greater than the length of the key, the key length is subracted from the value's total. It  
+If that value is greater than the length of the key, the key length is subracted from the value's total. It 
 then uses that value to grab a character from the "scramble.txt" file at whatever index the value holds; this 
 character is now the ciphered version of the plain text character. Since the key is almost definitely longer 
 than the text, when the loop reaches the length of the original text, the text is set to the ciphered text, 
