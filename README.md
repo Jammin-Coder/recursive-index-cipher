@@ -1,4 +1,4 @@
-# Recursive Index Cipher
+# Recursive Index Shift Cipher
 This program encrypts text using a random key, and a scrambled character set.  
 It's decrypted using the same random key, and the same scrambled character set.
   
