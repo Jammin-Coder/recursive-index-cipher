@@ -17,7 +17,9 @@ then scrambles them. It does this so that one cannot easily guess the indices of
 used to encode/decode text. Then it generates a key that is the length of the charset, with a random 
 character in each index.
 
-### Encoder:  
+### Encoder: 
+#### For now, this just encodes hard-coded text. It will take text input in the future. 
+#### If you would like to change the text, just open up `encode.py` and change the `text` variable at the bottom. 
 The encoder starts by reading the charset file, which contains all of the characters that  
 can be used in the program. Then you enter some text to encrypt. Every character has its own index value. Its 
 value is determined by the order of the characters in the "scramble.txt" file. The first character of the 
